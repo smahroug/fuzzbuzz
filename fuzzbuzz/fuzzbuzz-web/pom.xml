@@ -21,4 +21,6 @@
   <build>
     <finalName>fuzzbuzz-web</finalName>
   </build>
+  <groupId>com.serviceflow</groupId>
+  <version>0.0.1-SNAPSHOT</version>
 </project>
