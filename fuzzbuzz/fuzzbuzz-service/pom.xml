@@ -7,9 +7,7 @@
     <artifactId>fuzzbuzz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.serviceflow</groupId>
   <artifactId>fuzzbuzz-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>fuzzbuzz-service</name>
   <url>http://maven.apache.org</url>
   <properties>

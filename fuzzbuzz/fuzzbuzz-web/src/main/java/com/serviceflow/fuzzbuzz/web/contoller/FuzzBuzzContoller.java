@@ -11,21 +11,16 @@ import com.fasterxml.jackson.databind.util.JSONWrappedObject;
 import com.serviceflow.fuzzbuzz.service.api.FuzzBussService;
 
 
-
 @RestController
 public class FuzzBuzzContoller {
 	
 	@Autowired
 	FuzzBussService fuzzBussService;
 	
-	
-	
 	@RequestMapping(value = "/api/calculate/{value}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public JSONWrappedObject calulateFuzzBuzz(@PathVariable Integer value) {
 		return new JSONWrappedObject(null, null, fuzzBussService.calulateFuzzBuzz(value));
 		//return fuzzBussService.calulateFuzzBuzz(value);
-	}
-	
-	
+	}	
 
 }
